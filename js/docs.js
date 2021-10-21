@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){var o=window.location.protocol+"//"+window.location.hostname;$(".location").text(o);for(var n=!1,i=window.location.href.slice(window.location.href.indexOf("?")+1).split("&"),t=0;t<i.length;t++)"cens"==i[t].split("=")[0]&&(n=!0);n&&($(".version1").hide(),$(".censor").show())});
